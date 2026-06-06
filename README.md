@@ -85,12 +85,12 @@ Amplitude Modulation is the process of changing the amplitude of a relatively hi
 •	Verify the generated waveform using Tabulation and Model Waveform
 # PROGRAM:
 ```
-Am=10.7;
-fm=1792;
-fs=179200;
+Am=12.5;
+fm=1966;
+fs=196600;
 t=0:1/fs:2/fm;
-Ac=16.05;
-fc=17920;
+Ac=18.75;
+fc=19660;
 em=Am*cos(2*3.14*fm*t);
 subplot(3,1,1);
 plot(t,em);
@@ -105,17 +105,17 @@ plot(t,eam);
 <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/03d6ca7c-9fa1-4a92-81c6-2718308bad80" />
 
 # OUTPUT WAVEFORM:
-<img width="1609" height="974" alt="Amplitude modulation" src="https://github.com/user-attachments/assets/8a240301-27ff-415f-88da-0072aa97d35d" />
+<img width="755" height="706" alt="image" src="https://github.com/user-attachments/assets/624c2905-c341-433a-89cf-a6657c0f7c0c" />
 
 
 # TABULATION:
-<img width="1600" height="851" alt="AM table" src="https://github.com/user-attachments/assets/e9f6e96c-3510-49c8-9180-7e8312fc6797" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/950ff69b-744e-41c8-85ac-5fb04b969e9a" />
 		
 
 # Calculation:
-1.	ma (Theory) = am/ac = 10.7/16.05 = 0.666
-2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) = 21.666/31.574 = 0.686
-3.	Bw=2fmp = 2*1794.36 = 3588.72
+1.	ma (Theory) = am/ac = 12.5/18.75 = 0.666
+2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) = 24.21/35.72 = 0.677
+3.	Bw=2fmp = 2*1959.36 = 3918
 
 
 # RESULT:
