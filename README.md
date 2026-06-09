@@ -109,7 +109,7 @@ plot(t,eam);
 
 
 # TABULATION:
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/950ff69b-744e-41c8-85ac-5fb04b969e9a" />
+<img width="1600" height="916" alt="WhatsApp Image 2026-06-09 at 11 47 47 AM" src="https://github.com/user-attachments/assets/d9efe7dc-f10d-4aca-b31c-2ef67e66c7d5" />
 		
 
 # Calculation:
